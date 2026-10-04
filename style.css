@@ -82,3 +82,31 @@ footer {
   margin: 20px auto;
   border-radius: 12px;
 }
+/* スマホ表示を最適化 */
+@media (max-width: 600px) {
+  body {
+    width: 100%;
+    margin: 0;
+  }
+
+  .container {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+  }
+
+  header,
+  section,
+  footer {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .work img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+  }
+}
